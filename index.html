@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Catters</title>
+</head>
+
+<body>
+    <div class="bg-gradient-to-b from-yellow-50 to-yellow-400 h-screen relative">
+        <nav
+            class="bg-gradient-to-r from-yellow-50 to-yellow-100 border-b-2 border-yellow-400 h-20 text-yellow-500 flex">
+            <div class="ml-32 mr-10 mt-2"><img
+                    src="https://i.pinimg.com/originals/08/33/7b/08337b0f3707529f5b20fc3691ce0437.jpg" width="64"
+                    height="64" alt="" srcset=""></div>
+            <div>
+                <h1 href="#" class="text-3xl font-bold pl-2 pt-1">Catters</h1>
+                <p href="#" class="text-xl pl-2">To make your day brighter</p>
+            </div>
+
+        </nav>
+        <div class="bg-white h-96 ">
+            <iframe width="1600" id="cool-video" height="700" class="mx-auto" allow="autoplay"
+                src="https://www.youtube.com/embed/0ZZTP_hoMPw?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=1&autoplay=1"
+                frameborder="0"></iframe>
+            <button id="get-cat"
+                class="outline-none bg-yellow-300 hover:bg-yellow-400 rounded-2xl shadow-md border-2 border-yellow-400 text-center text-2xl absolute top-20  pin-c text-center h-10 leading-8 align-middle w-60 text-white">
+                Get a Cat!
+            </button>
+
+
+
+            <div id="cat-img"
+                class="absolute border-4 border-yellow-500 top-102 pin-c inline-block shadow-2xl rounded-2xl">
+                <img style="max-width:800px; max-height:600px; overflow: hidden" class="rounded-xl" id="cat-source"
+                    src="https://cataas.com/cat/gif">
+            </div>
+        </div>
+
+        <div class="text-right mt-80 mr-20">
+            <button id="hide-img" class="outline-none bg-white hover:bg-gray-200 rounded-2xl
+                    shadow-md text-center text-yellow-500 text-2xl shadow-xl
+                    text-center h-10 leading-8 align-middle w-60 text-white">
+
+                Hide Img & Vibe B)
+            </button>
+        </div>
+
+        <div class="mx-auto text-white  text-center text-2xl font-bold">
+            <span id="combo-meter" class="block">Cat combo: 0</span>
+            <span id="pog" class="block pt-2"><img class=" mx-auto" width="32" height="50"
+                    src="https://toppng.com/public/uploads/thumbnail/view-pogger-pogchamp-emote-11563056054hofxhb4alo.png"
+                    alt="PogU" srcset=""></span>
+            <span id="zacek" class="inline-block text-yellow-400 text-xs cursor-pointer">zacek is geh</span>
+        </div>
+
+    </div>
+    <div class="h-8 flex flex-wrap bg-gray-800 text-right text-white content-center justify-around">
+        <span>
+            <p class="text-xs">made by adbal99</p>
+        </span>
+        <span>
+            <p class="text-xs">API provided by cataas.com</p>
+        </span>
+        <span>
+            <p class="text-xs">PG3KNT</p>
+        </span>
+
+    </div>
+</body>
+
+<script src="cat.js"></script>
+
+
+<style>
+    .pin-c {
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+
+    .pin-v {
+        transform: translate3d(-50%, -50%, 0);
+    }
+</style>
+
+</html>
